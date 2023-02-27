@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizz JS</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" href="pictures/J.png">
+</head>
+<body>
+    
+  <h1>Quizz Sur Jimmy Clairy !</h1>
+
+  <div class="container-global">
+
+    <form class="form-quizz">
+
+          <div class="question-block">
+            <h4>Quelle est sa date de naissance ?</h4>
+            
+            <div>
+                <input type="radio" id="Date1" name="q1" value="a"checked>
+                <label for="Clovis">25 Avril</label>
+            </div>
+            
+            <div>
+                <input type="radio" id="Date2" name="q1" value="b">
+                <label for="Lincoln">27 Avril</label>
+            </div>
+            
+            <div>
+                <input type="radio" id="Date3" name="q1" value="c">
+                <label for="Bonaparte">22 Avril</label>
+            </div>
+
+            <div>
+                <input type="radio" id="Date4" name="q1" value="d">
+                <label for="Bonaparte">21 Avril</label>
+            </div>
+        </div>
+
+        <div class="question-block">
+            <h4>Quelle est sa couleur préférée ?</h4>
+            <div>
+                <input type="radio" id="couleur1" name="q2" value="a" checked>
+                <label for="date1">Bleu</label>
+            </div>
+            
+            <div>
+                <input type="radio" id="couleur2" name="q2" value="b">
+                <label for="date2">Blanc</label>
+            </div>
+            
+            <div>
+                <input type="radio" id="couleur3" name="q2" value="c">
+                <label for="date3">Jaune</label>
+            </div>
+
+            <div>
+                <input type="radio" id="couleur4" name="q2" value="d">
+                <label for="date3">Vert</label>
+            </div>
+        </div>
+
+        <div class="question-block">
+            <h4>Quelle son sport préféré ?</h4>
+            <div>
+                <input type="radio" id="sport1" name="q3" value="a" checked>
+                <label for="date4">Kitesurf</label>
+            </div>
+            
+            <div>
+                <input type="radio" id="sport2" name="q3" value="b">
+                <label for="date5">VTT</label>
+            </div>
+            
+            <div>
+                <input type="radio" id="sport3" name="q3" value="c">
+                <label for="date6">Wakeboard</label>
+            </div>
+
+            <div>
+                <input type="radio" id="sport4" name="q3" value="d">
+                <label for="date6">Football</label>
+            </div>
+        </div>
+
+
+        <div class="question-block">
+            <h4>Quelle est son film de Will Smith préféré ?</h4>
+
+            <div>
+                <input type="radio" id="Film1" name="q4" value="a" checked>
+                <label for="Ljubljana">Je suis une Légende</label>
+            </div>
+            
+            <div>
+                <input type="radio" id="Film2" name="q4" value="b">
+                <label for="Belgrade">Hancock</label>
+            </div>
+            
+            <div>
+                <input type="radio" id="Film3" name="q4" value="c">
+                <label for="Bratislava">Sept Vies</label>
+            </div>
+
+            <div>
+                <input type="radio" id="Film4" name="q4" value="d">
+                <label for="Bratislava">Diversion</label>
+            </div>
+        </div>
+
+
+        <div class="question-block">
+            <h4>Quelle est son plat favori ?</h4>
+            <div>
+                <input type="radio" id="Plat1" name="q5" value="a" checked>
+                <label for="m1">Poulet à la crème et aux champignons</label>
+            </div>
+            
+            <div>
+                <input type="radio" id="Plat2" name="q5" value="b">
+                <label for="m2">Whopper du Burger King</label>
+            </div>
+            
+            <div>
+                <input type="radio" id="Plat3" name="q5" value="c">
+                <label for="m3">Tataki de Thon rouge</label>
+            </div>
+
+            <div>
+                <input type="radio" id="Plat4" name="q5" value="d">
+                <label for="m3">Brochette de Saumon au barbecue</label>
+            </div>
+        </div>
+
+        <button type="submit">Validez vos choix !</button>
+    </form>
+
+    <div class="resultats">
+      <h2>Cliquez sur valider pour voir les résultats.</h2>
+      <p class="aide"></p>
+      <p class="note"></p>
+    </div>
+  </div>
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
